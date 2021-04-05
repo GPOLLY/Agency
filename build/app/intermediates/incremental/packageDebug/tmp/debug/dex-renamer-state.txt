@@ -1,4 +1,4 @@
-#Fri Jun 12 21:36:58 EAT 2020
-base.0=/home/george/Development/vision_agency/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Sun Apr 04 12:00:28 EAT 2021
+base.0=/home/george/Development/Agency/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

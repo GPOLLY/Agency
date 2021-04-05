@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       drawer: AppDrawer(),
       appBar: AppBar(
-        title: Text('VISION AFRIKA SACCO', style: TextStyle(color:Colors.black),),
+        title: Text('VISION  SACCO', style: TextStyle(color:Colors.black),),
         centerTitle: true,
         actions: <Widget>[
           new IconButton(
@@ -233,7 +233,7 @@ class GridDetails extends StatelessWidget {
               gradient: LinearGradient(
                 begin: Alignment.topLeft,
                 end: Alignment.bottomCenter,
-                colors: ([Color.fromRGBO(118, 155, 207, 1),Color.fromRGBO(118, 155, 207, 1)]), //fromRGBO(132, 173, 231, 1)
+                //colors: ([Color.fromRGBO(118, 155, 207, 1),Color.fromRGBO(118, 155, 207, 1)]), //fromRGBO(132, 173, 231, 1)
               ),
             ),
             child: Padding(
@@ -264,7 +264,7 @@ class GridDetails extends StatelessWidget {
               gradient: LinearGradient(
                 begin: Alignment.topLeft,
                 end: Alignment.bottomCenter,
-                colors: ([Color.fromRGBO(118, 155, 207, 0.5),Color.fromRGBO(118, 155, 207, 0.5)]),
+                //colors: ([Color.fromRGBO(118, 155, 207, 0.5),Color.fromRGBO(118, 155, 207, 0.5)]),
               ),
             ),
             child: Column(
@@ -324,7 +324,7 @@ class Deposits extends StatelessWidget {
               gradient: LinearGradient(
                 begin: Alignment.topLeft,
                 end: Alignment.bottomCenter,
-                colors: ([Color.fromRGBO(118, 155, 207, 1),Color.fromRGBO(118, 155, 207, 1)]), //fromRGBO(132, 173, 231, 1)
+                //colors: ([Color.fromRGBO(118, 155, 207, 1),Color.fromRGBO(118, 155, 207, 1)]), //fromRGBO(132, 173, 231, 1)
               ),
             ),
             child: Padding(

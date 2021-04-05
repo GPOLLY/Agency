@@ -17,7 +17,9 @@ class _AccountState extends State<Account> {
     child: Container(
         decoration: BoxDecoration(
             gradient: RadialGradient(
-                colors: [Color(0xFF015FFF), Color(0xFF015FFF)])),
+                   // colors: [Color(0xFF015FFF), Color(0xFF015FFF)]
+            )
+        ),
         padding: EdgeInsets.all(5.0),
         // color: Color(0xFF015FFF),
         child: Column(
