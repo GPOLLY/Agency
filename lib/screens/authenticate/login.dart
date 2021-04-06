@@ -5,9 +5,6 @@ import 'dart:convert';
 import 'package:sweetalert/sweetalert.dart';
 import 'package:vision_agency/screens/home/home.dart';
 
-
-
-
 class Login extends StatefulWidget {
   @override
   LoginState createState() => LoginState();
@@ -22,17 +19,17 @@ class LoginState extends State<Login> {
   String msg ='';
   int index = 1;
 
-
-
   Future<List>_login() async{
     final response = await http.post("http://realtimetechnology.co.ke/agency/login.php", body:{
       "username":user.text,
       "password":pass.text,
+
     });
 
     var datauser = json.decode(response.body);
+    print(username);
 
-
+    print(datauser.length);
     if(datauser.length !=0){
       Navigator.of(context)
           .push(MaterialPageRoute<Null>(builder: (BuildContext context) {
